@@ -12,7 +12,7 @@ i18n
   .use(initReactI18next)
   // init i18next
   .init({
-    lng: window._env_.DEFAULT_LANG,
+    lng: "fr",
     debug: false,
     fallbackLng: "fr", //window["envConfigs"].defaultLang, //default language
     interpolation: {
